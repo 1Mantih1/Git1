@@ -6,7 +6,6 @@ echo "3. Выполнить вычитание\n";
 echo "4. Выполнить деление\n";
 echo "5. Возвести число в степень\n";
 
-// Выбор действия
 $choice = readline("Выберите действие: ");
 
 switch ($choice) {
@@ -18,24 +17,10 @@ switch ($choice) {
         $result = $num1 + $num2;
         echo "Результат сложения: $result\n";
         break;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> division
-=======
->>>>>>> exponentiation
     case 3:
         $result = $num1 - $num2;
         echo "Результат вычитания: $result\n";
         break;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> subtraction
-=======
-=======
->>>>>>> exponentiation
     case 4:
         if ($num2 != 0) {
             $result = $num1 / $num2;
@@ -44,15 +29,11 @@ switch ($choice) {
             echo "Ошибка: деление на ноль\n";
         }
         break;
-<<<<<<< HEAD
->>>>>>> division
-=======
     case 5:
         $exponent = readline("Введите степень: ");
         $result = pow($num1, $exponent);
         echo "Результат возведения в степень: $result\n";
         break;
->>>>>>> exponentiation
     default:
         echo "Неверный выбор\n";
         break;
