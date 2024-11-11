@@ -18,6 +18,13 @@ switch ($choice) {
         $result = $num1 + $num2;
         echo "Результат сложения: $result\n";
         break;
+<<<<<<< HEAD
+=======
+    case 3:
+        $result = $num1 - $num2;
+        echo "Результат вычитания: $result\n";
+        break;
+>>>>>>> subtraction
     default:
         echo "Неверный выбор\n";
         break;
