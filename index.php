@@ -19,12 +19,26 @@ switch ($choice) {
         echo "Результат сложения: $result\n";
         break;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> division
     case 3:
         $result = $num1 - $num2;
         echo "Результат вычитания: $result\n";
         break;
+<<<<<<< HEAD
 >>>>>>> subtraction
+=======
+    case 4:
+        if ($num2 != 0) {
+            $result = $num1 / $num2;
+            echo "Результат деления: $result\n";
+        } else {
+            echo "Ошибка: деление на ноль\n";
+        }
+        break;
+>>>>>>> division
     default:
         echo "Неверный выбор\n";
         break;
